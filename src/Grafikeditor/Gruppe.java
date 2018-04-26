@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Gruppe {
-List figuren = new ArrayList<Figur>();
+List<Figur> figuren = new ArrayList<Figur>();
 
     private String name;
 

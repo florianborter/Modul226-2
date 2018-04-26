@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Zeichnung extends JFrame {
 
-    private List<Figur> figuren = new ArrayList<Figur>();
+    private List<Figur> figuren;
 
     public Zeichnung(List<Figur> figuren) {
         this.figuren = figuren;
@@ -16,11 +16,7 @@ public class Zeichnung extends JFrame {
         figuren.forEach(i -> i.zeichne(g));
     }
 
-    public void save() {
-
-    }
-
-    public void load() {
-
+    public void addFigur(Figur f){
+        figuren.add(f);
     }
 }

@@ -24,10 +24,10 @@ public class GragikeditorMain {
         kreise.add(k);
         polygone.add(p);*/
 
-        d.hinzufuegen(kreise);
+        /*d.hinzufuegen(kreise);
         d.hinzufuegen(linien);
         d.hinzufuegen(rechtecke);
-        d.hinzufuegen(polygone);
+        d.hinzufuegen(polygone);*/
 
         util.clearFile();
         util.saveFigur(r);

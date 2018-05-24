@@ -8,6 +8,10 @@ public class Zeichnung extends JFrame {
 
     private List<Figur> figuren = new ArrayList<Figur>();
 
+    public Zeichnung() {
+        this.figuren = new ArrayList<>();
+    }
+
     public Zeichnung(List<Figur> figuren) {
         this.figuren = figuren;
     }
@@ -16,11 +20,8 @@ public class Zeichnung extends JFrame {
         figuren.forEach(i -> i.zeichne(g));
     }
 
-    public void save() {
 
-    }
-
-    public void load() {
-
+    public void addFigur(Figur f) {
+        figuren.add(f);
     }
 }

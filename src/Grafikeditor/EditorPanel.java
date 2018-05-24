@@ -53,18 +53,17 @@ final class EditorPanel extends JPanel implements MouseListener, KeyListener {
 
   }
 
-    @Override
-    public void keyTyped(KeyEvent e) {
-        editorControl.setFigurTyp(e.getKeyChar());
-    }
+  @Override
+  public void keyTyped(KeyEvent e) {
+    editorControl.setFigurTyp(e.getKeyChar());
+  }
 
-    @Override
-    public void keyPressed(KeyEvent e) {
+  @Override
+  public void keyPressed(KeyEvent e) {
+  }
 
-    }
+  @Override
+  public void keyReleased(KeyEvent e) {
 
-    @Override
-    public void keyReleased(KeyEvent e) {
-
-    }
+  }
 }
